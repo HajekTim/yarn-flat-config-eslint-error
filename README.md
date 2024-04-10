@@ -1,4 +1,4 @@
-Commands ran:
+# Commands to reproduce the error
 
 ```
 yarn install
@@ -7,7 +7,7 @@ yarn add eslint
 yarn dlx @yarnpkg/sdks vscode
 ```
 
-Error message:
+# Error message
 
 ```
 [Error - 9:48:06 PM] An unexpected error occurred:
@@ -23,3 +23,17 @@ Did you mean to import @eslint-js-npm-9.0.0-5e980024c8-10c0.zip/node_modules/@es
     at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:77:40)
     at link (node:internal/modules/esm/module_job:76:36)
 ```
+
+# Environment data
+
+Version: 1.88.0 (user setup) <br>
+Commit: 5c3e652f63e798a5ac2f31ffd0d863669328dc4c<br>
+Date: 2024-04-03T13:26:18.741Z<br>
+Electron: 28.2.8<br>
+ElectronBuildId: 27744544<br>
+Chromium: 120.0.6099.291<br>
+Node.js: 18.18.2<br>
+V8: 12.0.267.19-electron.0<br>
+OS: Windows_NT x64 10.0.22631<br>
+
+ESLint Extension: v3.0.5 (pre-release)
